@@ -1,0 +1,72 @@
+.optionButton {
+  width: 100%;
+  padding: 16px 24px;
+  border: 2px solid #475792;
+  border-radius: 999px; /* iconic pill shape */
+  background: linear-gradient(180deg, #0b0f2a, #04040e);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: background 0.25s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Hover */
+.optionButton:hover {
+  box-shadow: 0 0 12px rgba(71, 87, 146, 0.8);
+}
+
+/* Click */
+.optionButton:active {
+  transform: scale(0.96);
+}
+
+/* Selected */
+.selected {
+  background: linear-gradient(180deg, #fa9b1e, #f57c00); /* orange gradient */
+  border-color: #ffb74d; /* lighter orange border */
+  box-shadow: 0 0 14px rgba(250, 155, 30, 0.9); /* orange glow */
+}
+
+/* Correct */
+.correct {
+  background: linear-gradient(180deg, #1f8f4d, #0d3b1f);
+  border-color: #2ecc71;
+  box-shadow: 0 0 14px rgba(46, 204, 113, 0.9);
+}
+
+/* Wrong */
+.wrong {
+  background: linear-gradient(180deg, #8f1f1f, #3b0d0d);
+  border-color: #e74c3c;
+  box-shadow: 0 0 14px rgba(231, 76, 60, 0.9);
+}
+
+/* Disabled */
+.optionButton.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.optionButton.disabled:hover,
+.optionButton.disabled:active {
+  box-shadow: none;
+  transform: none;
+}
+/* Option letter circle */
+.optionKey {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #475792;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
