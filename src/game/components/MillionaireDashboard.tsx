@@ -76,17 +76,13 @@ export const MillionaireDashboard: FC<MillionaireDashboardProps> = ({
 
   return (
     <>
-      <QuestionBanner question={questionText} />
-
       <div className={styles["option-grid"]}>
-        <div className={styles["option-row"]}>
-          {renderOptionButton(OptionEnum.A)}
-          {renderOptionButton(OptionEnum.B)}
-        </div>
-        <div className={styles["option-row"]}>
-          {renderOptionButton(OptionEnum.C)}
-          {renderOptionButton(OptionEnum.D)}
-        </div>
+        <div className={styles["question-banner"]}>{questionText}</div>
+        {/* <QuestionBanner question={questionText} /> */}
+        {renderOptionButton(OptionEnum.A)}
+        {renderOptionButton(OptionEnum.B)}
+        {renderOptionButton(OptionEnum.C)}
+        {renderOptionButton(OptionEnum.D)}
       </div>
     </>
   );

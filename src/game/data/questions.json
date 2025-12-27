@@ -1,0 +1,1518 @@
+{
+  "level-1": [
+    {
+      "questionText": "Who was the first President of the United States?",
+      "options": {
+        "A": "George Washington",
+        "B": "Thomas Jefferson",
+        "C": "Abraham Lincoln",
+        "D": "John Adams"
+      },
+      "correctOption": "A",
+      "topic": "History"
+    },
+    {
+      "questionText": "What is H2O commonly known as?",
+      "options": {
+        "A": "Hydrogen",
+        "B": "Water",
+        "C": "Oxygen",
+        "D": "Helium"
+      },
+      "correctOption": "B",
+      "topic": "Chemistry"
+    },
+    {
+      "questionText": "What is 8 × 7?",
+      "options": { "A": "54", "B": "56", "C": "64", "D": "48" },
+      "correctOption": "B",
+      "topic": "Math"
+    },
+    {
+      "questionText": "Which planet is known as the Red Planet?",
+      "options": { "A": "Mars", "B": "Venus", "C": "Jupiter", "D": "Saturn" },
+      "correctOption": "A",
+      "topic": "Astronomy"
+    },
+    {
+      "questionText": "Who wrote the play 'Romeo and Juliet'?",
+      "options": {
+        "A": "Shakespeare",
+        "B": "Hemingway",
+        "C": "Tolstoy",
+        "D": "Dickens"
+      },
+      "correctOption": "A",
+      "topic": "History"
+    },
+    {
+      "questionText": "What is the chemical symbol for Sodium?",
+      "options": { "A": "S", "B": "Na", "C": "Sn", "D": "N" },
+      "correctOption": "B",
+      "topic": "Chemistry"
+    },
+    {
+      "questionText": "What is the square root of 64?",
+      "options": { "A": "6", "B": "7", "C": "8", "D": "9" },
+      "correctOption": "C",
+      "topic": "Math"
+    },
+    {
+      "questionText": "What force keeps planets in orbit around the sun?",
+      "options": {
+        "A": "Magnetism",
+        "B": "Gravity",
+        "C": "Friction",
+        "D": "Electrostatic"
+      },
+      "correctOption": "B",
+      "topic": "Physics"
+    },
+    {
+      "questionText": "Which year did World War II end?",
+      "options": { "A": "1945", "B": "1939", "C": "1918", "D": "1965" },
+      "correctOption": "A",
+      "topic": "History"
+    },
+    {
+      "questionText": "What is the atomic number of Oxygen?",
+      "options": { "A": "6", "B": "7", "C": "8", "D": "9" },
+      "correctOption": "C",
+      "topic": "Chemistry"
+    }
+  ],
+  "level-2": [
+    {
+      "questionText": "Who formulated the theory of general relativity?",
+      "options": {
+        "A": "Newton",
+        "B": "Einstein",
+        "C": "Galileo",
+        "D": "Tesla"
+      },
+      "correctOption": "B",
+      "topic": "Physics"
+    },
+    {
+      "questionText": "What is the derivative of sin(x)?",
+      "options": {
+        "A": "cos(x)",
+        "B": "-cos(x)",
+        "C": "sin(x)",
+        "D": "-sin(x)"
+      },
+      "correctOption": "A",
+      "topic": "Math"
+    },
+    {
+      "questionText": "Which element has the highest electronegativity?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Fluorine",
+        "C": "Chlorine",
+        "D": "Nitrogen"
+      },
+      "correctOption": "B",
+      "topic": "Chemistry"
+    },
+    {
+      "questionText": "In which year did the French Revolution begin?",
+      "options": { "A": "1789", "B": "1776", "C": "1812", "D": "1804" },
+      "correctOption": "A",
+      "topic": "History"
+    },
+    {
+      "questionText": "If F = ma, what is the acceleration of a 10kg mass with a force of 50N?",
+      "options": {
+        "A": "5 m/s²",
+        "B": "10 m/s²",
+        "C": "2 m/s²",
+        "D": "50 m/s²"
+      },
+      "correctOption": "A",
+      "topic": "Physics"
+    },
+    {
+      "questionText": "What is the integral of 1/x dx?",
+      "options": {
+        "A": "ln|x| + C",
+        "B": "1/x² + C",
+        "C": "x + C",
+        "D": "e^x + C"
+      },
+      "correctOption": "A",
+      "topic": "Math"
+    },
+    {
+      "questionText": "Which acid is present in vinegar?",
+      "options": {
+        "A": "Sulfuric acid",
+        "B": "Acetic acid",
+        "C": "Citric acid",
+        "D": "Nitric acid"
+      },
+      "correctOption": "B",
+      "topic": "Chemistry"
+    },
+    {
+      "questionText": "Who was the British monarch during World War I?",
+      "options": {
+        "A": "George V",
+        "B": "Victoria",
+        "C": "Edward VII",
+        "D": "Elizabeth II"
+      },
+      "correctOption": "A",
+      "topic": "History"
+    },
+    {
+      "questionText": "What is the momentum of a 2kg object moving at 3 m/s?",
+      "options": {
+        "A": "6 kg·m/s",
+        "B": "5 kg·m/s",
+        "C": "3 kg·m/s",
+        "D": "9 kg·m/s"
+      },
+      "correctOption": "A",
+      "topic": "Physics"
+    },
+    {
+      "questionText": "Solve for x: 2x + 5 = 13",
+      "options": { "A": "4", "B": "5", "C": "6", "D": "7" },
+      "correctOption": "A",
+      "topic": "Math"
+    }
+  ],
+
+  "level-3": [
+    {
+      "questionText": "What is the derivative of x³?",
+      "options": { "A": "3x²", "B": "x²", "C": "x³", "D": "3x" },
+      "correctOption": "A",
+      "topic": "Math"
+    },
+    {
+      "questionText": "Which gas is produced when hydrochloric acid reacts with zinc?",
+      "options": {
+        "A": "Hydrogen",
+        "B": "Oxygen",
+        "C": "Chlorine",
+        "D": "Carbon dioxide"
+      },
+      "correctOption": "A",
+      "topic": "Chemistry"
+    },
+    {
+      "questionText": "Who wrote 'The Odyssey'?",
+      "options": {
+        "A": "Homer",
+        "B": "Plato",
+        "C": "Aristotle",
+        "D": "Virgil"
+      },
+      "correctOption": "A",
+      "topic": "History"
+    },
+    {
+      "questionText": "What is the formula for gravitational potential energy?",
+      "options": { "A": "mgh", "B": "½mv²", "C": "F × d", "D": "p × v" },
+      "correctOption": "A",
+      "topic": "Physics"
+    },
+    {
+      "questionText": "What is the value of sin(90°)?",
+      "options": { "A": "0", "B": "1", "C": "0.5", "D": "-1" },
+      "correctOption": "B",
+      "topic": "Math"
+    },
+    {
+      "questionText": "Which element has atomic number 6?",
+      "options": {
+        "A": "Carbon",
+        "B": "Oxygen",
+        "C": "Nitrogen",
+        "D": "Helium"
+      },
+      "correctOption": "A",
+      "topic": "Chemistry"
+    },
+    {
+      "questionText": "Who discovered penicillin?",
+      "options": {
+        "A": "Alexander Fleming",
+        "B": "Marie Curie",
+        "C": "Louis Pasteur",
+        "D": "Gregor Mendel"
+      },
+      "correctOption": "A",
+      "topic": "History"
+    },
+    {
+      "questionText": "What is the acceleration of a free-falling object near Earth's surface?",
+      "options": {
+        "A": "9.8 m/s²",
+        "B": "10 m/s²",
+        "C": "8 m/s²",
+        "D": "12 m/s²"
+      },
+      "correctOption": "A",
+      "topic": "Physics"
+    },
+    {
+      "questionText": "What is the integral of 2x dx?",
+      "options": { "A": "x² + C", "B": "2x² + C", "C": "x + C", "D": "2x + C" },
+      "correctOption": "A",
+      "topic": "Math"
+    },
+    {
+      "questionText": "Which acid is commonly found in car batteries?",
+      "options": {
+        "A": "Sulfuric acid",
+        "B": "Hydrochloric acid",
+        "C": "Nitric acid",
+        "D": "Acetic acid"
+      },
+      "correctOption": "A",
+      "topic": "Chemistry"
+    }
+  ],
+  "level-4": [
+    {
+      "questionText": "What is the derivative of sin(x)?",
+      "options": {
+        "A": "cos(x)",
+        "B": "-cos(x)",
+        "C": "-sin(x)",
+        "D": "tan(x)"
+      },
+      "correctOption": "A",
+      "topic": "Math"
+    },
+    {
+      "questionText": "What is the molar mass of H₂O?",
+      "options": {
+        "A": "18 g/mol",
+        "B": "16 g/mol",
+        "C": "20 g/mol",
+        "D": "22 g/mol"
+      },
+      "correctOption": "A",
+      "topic": "Chemistry"
+    },
+    {
+      "questionText": "Who was the first emperor of Rome?",
+      "options": {
+        "A": "Augustus",
+        "B": "Julius Caesar",
+        "C": "Nero",
+        "D": "Caligula"
+      },
+      "correctOption": "A",
+      "topic": "History"
+    },
+    {
+      "questionText": "Which law explains the relationship between current, voltage, and resistance?",
+      "options": {
+        "A": "Ohm's Law",
+        "B": "Newton's Law",
+        "C": "Hooke's Law",
+        "D": "Faraday's Law"
+      },
+      "correctOption": "A",
+      "topic": "Physics"
+    },
+    {
+      "questionText": "What is the integral of 1/x dx?",
+      "options": {
+        "A": "ln|x| + C",
+        "B": "1/x + C",
+        "C": "x ln|x| + C",
+        "D": "x²/2 + C"
+      },
+      "correctOption": "A",
+      "topic": "Math"
+    },
+    {
+      "questionText": "Which element has the chemical symbol 'Na'?",
+      "options": { "A": "Sodium", "B": "Nitrogen", "C": "Neon", "D": "Nickel" },
+      "correctOption": "A",
+      "topic": "Chemistry"
+    },
+    {
+      "questionText": "Who wrote the 'Iliad'?",
+      "options": {
+        "A": "Homer",
+        "B": "Virgil",
+        "C": "Sophocles",
+        "D": "Plato"
+      },
+      "correctOption": "A",
+      "topic": "History"
+    },
+    {
+      "questionText": "What is the momentum of an object of mass 10 kg moving at 5 m/s?",
+      "options": {
+        "A": "50 kg·m/s",
+        "B": "15 kg·m/s",
+        "C": "25 kg·m/s",
+        "D": "10 kg·m/s"
+      },
+      "correctOption": "A",
+      "topic": "Physics"
+    },
+    {
+      "questionText": "If f(x) = x³ + 2x², what is f'(x)?",
+      "options": {
+        "A": "3x² + 4x",
+        "B": "3x² + 2x",
+        "C": "x² + 4x",
+        "D": "x³ + 2"
+      },
+      "correctOption": "A",
+      "topic": "Math"
+    },
+    {
+      "questionText": "Which acid is found in vinegar?",
+      "options": {
+        "A": "Acetic acid",
+        "B": "Sulfuric acid",
+        "C": "Citric acid",
+        "D": "Nitric acid"
+      },
+      "correctOption": "A",
+      "topic": "Chemistry"
+    }
+  ],
+  "level-5": [
+    {
+      "questionText": "Which country hosted the 2016 Summer Olympics?",
+      "options": { "A": "Brazil", "B": "China", "C": "UK", "D": "Russia" },
+      "correctOption": "A",
+      "topic": "Sports"
+    },
+    {
+      "questionText": "Who painted the 'Mona Lisa'?",
+      "options": {
+        "A": "Leonardo da Vinci",
+        "B": "Michelangelo",
+        "C": "Raphael",
+        "D": "Van Gogh"
+      },
+      "correctOption": "A",
+      "topic": "Art"
+    },
+    {
+      "questionText": "Which river is the longest in the world?",
+      "options": {
+        "A": "Nile",
+        "B": "Amazon",
+        "C": "Yangtze",
+        "D": "Mississippi"
+      },
+      "correctOption": "A",
+      "topic": "Geography"
+    },
+    {
+      "questionText": "Which scientist developed the theory of general relativity?",
+      "options": {
+        "A": "Albert Einstein",
+        "B": "Isaac Newton",
+        "C": "Galileo Galilei",
+        "D": "Nikola Tesla"
+      },
+      "correctOption": "A",
+      "topic": "Science"
+    },
+    {
+      "questionText": "Which country is home to the Great Barrier Reef?",
+      "options": {
+        "A": "Australia",
+        "B": "USA",
+        "C": "South Africa",
+        "D": "India"
+      },
+      "correctOption": "A",
+      "topic": "Geography"
+    },
+    {
+      "questionText": "Who wrote 'Hamlet'?",
+      "options": {
+        "A": "William Shakespeare",
+        "B": "Charles Dickens",
+        "C": "Mark Twain",
+        "D": "Leo Tolstoy"
+      },
+      "correctOption": "A",
+      "topic": "Literature"
+    },
+    {
+      "questionText": "Which planet is the largest in our Solar System?",
+      "options": {
+        "A": "Jupiter",
+        "B": "Saturn",
+        "C": "Earth",
+        "D": "Neptune"
+      },
+      "correctOption": "A",
+      "topic": "Astronomy"
+    },
+    {
+      "questionText": "What is the capital city of Japan?",
+      "options": { "A": "Tokyo", "B": "Kyoto", "C": "Osaka", "D": "Hiroshima" },
+      "correctOption": "A",
+      "topic": "Geography"
+    },
+    {
+      "questionText": "Who discovered penicillin?",
+      "options": {
+        "A": "Alexander Fleming",
+        "B": "Marie Curie",
+        "C": "Louis Pasteur",
+        "D": "Gregor Mendel"
+      },
+      "correctOption": "A",
+      "topic": "Science"
+    },
+    {
+      "questionText": "Which famous landmark is located in Paris, France?",
+      "options": {
+        "A": "Eiffel Tower",
+        "B": "Big Ben",
+        "C": "Colosseum",
+        "D": "Statue of Liberty"
+      },
+      "correctOption": "A",
+      "topic": "History"
+    }
+  ],
+  "level-6": [
+    {
+      "questionText": "Which company developed the iPhone?",
+      "options": {
+        "A": "Apple",
+        "B": "Samsung",
+        "C": "Microsoft",
+        "D": "Google"
+      },
+      "correctOption": "A",
+      "topic": "Technology"
+    },
+    {
+      "questionText": "Which movie won the Oscar for Best Picture in 1994?",
+      "options": {
+        "A": "Forrest Gump",
+        "B": "Pulp Fiction",
+        "C": "The Shawshank Redemption",
+        "D": "Lion King"
+      },
+      "correctOption": "A",
+      "topic": "Movies"
+    },
+    {
+      "questionText": "Who is known as the 'King of Pop'?",
+      "options": {
+        "A": "Michael Jackson",
+        "B": "Elvis Presley",
+        "C": "Prince",
+        "D": "Freddie Mercury"
+      },
+      "correctOption": "A",
+      "topic": "Music"
+    },
+    {
+      "questionText": "Which desert is the largest in the world?",
+      "options": {
+        "A": "Sahara",
+        "B": "Gobi",
+        "C": "Kalahari",
+        "D": "Arabian"
+      },
+      "correctOption": "A",
+      "topic": "Geography"
+    },
+    {
+      "questionText": "What is the main ingredient in traditional Japanese miso soup?",
+      "options": { "A": "Soybeans", "B": "Rice", "C": "Seaweed", "D": "Tofu" },
+      "correctOption": "A",
+      "topic": "Food"
+    },
+    {
+      "questionText": "Which programming language is primarily used for Android development?",
+      "options": {
+        "A": "Kotlin",
+        "B": "Swift",
+        "C": "JavaScript",
+        "D": "Python"
+      },
+      "correctOption": "A",
+      "topic": "Technology"
+    },
+    {
+      "questionText": "Who directed the movie 'Inception'?",
+      "options": {
+        "A": "Christopher Nolan",
+        "B": "Steven Spielberg",
+        "C": "James Cameron",
+        "D": "Quentin Tarantino"
+      },
+      "correctOption": "A",
+      "topic": "Movies"
+    },
+    {
+      "questionText": "Which musical instrument has keys, pedals, and strings?",
+      "options": { "A": "Piano", "B": "Guitar", "C": "Violin", "D": "Flute" },
+      "correctOption": "A",
+      "topic": "Music"
+    },
+    {
+      "questionText": "Which is the smallest country in the world by area?",
+      "options": {
+        "A": "Vatican City",
+        "B": "Monaco",
+        "C": "San Marino",
+        "D": "Liechtenstein"
+      },
+      "correctOption": "A",
+      "topic": "Geography"
+    },
+    {
+      "questionText": "What chemical element has the symbol 'Au'?",
+      "options": { "A": "Gold", "B": "Silver", "C": "Copper", "D": "Aluminum" },
+      "correctOption": "A",
+      "topic": "Chemistry"
+    }
+  ],
+  "level-7": [
+    {
+      "questionText": "Who was the first president of the United States?",
+      "options": {
+        "A": "George Washington",
+        "B": "Thomas Jefferson",
+        "C": "Abraham Lincoln",
+        "D": "John Adams"
+      },
+      "correctOption": "A",
+      "topic": "History"
+    },
+    {
+      "questionText": "Which novel begins with 'Call me Ishmael'?",
+      "options": {
+        "A": "Moby-Dick",
+        "B": "Pride and Prejudice",
+        "C": "The Great Gatsby",
+        "D": "1984"
+      },
+      "correctOption": "A",
+      "topic": "Literature"
+    },
+    {
+      "questionText": "What is the capital city of Canada?",
+      "options": {
+        "A": "Ottawa",
+        "B": "Toronto",
+        "C": "Vancouver",
+        "D": "Montreal"
+      },
+      "correctOption": "A",
+      "topic": "Geography"
+    },
+    {
+      "questionText": "Which planet is known for its rings?",
+      "options": {
+        "A": "Saturn",
+        "B": "Jupiter",
+        "C": "Uranus",
+        "D": "Neptune"
+      },
+      "correctOption": "A",
+      "topic": "Science"
+    },
+    {
+      "questionText": "What is the powerhouse of the cell?",
+      "options": {
+        "A": "Mitochondria",
+        "B": "Nucleus",
+        "C": "Ribosome",
+        "D": "Golgi apparatus"
+      },
+      "correctOption": "A",
+      "topic": "Biology"
+    },
+    {
+      "questionText": "Who invented the World Wide Web?",
+      "options": {
+        "A": "Tim Berners-Lee",
+        "B": "Bill Gates",
+        "C": "Steve Jobs",
+        "D": "Mark Zuckerberg"
+      },
+      "correctOption": "A",
+      "topic": "Technology"
+    },
+    {
+      "questionText": "Which famous physicist developed the theory of relativity?",
+      "options": {
+        "A": "Albert Einstein",
+        "B": "Isaac Newton",
+        "C": "Galileo Galilei",
+        "D": "Niels Bohr"
+      },
+      "correctOption": "A",
+      "topic": "Physics"
+    },
+    {
+      "questionText": "In which year did the French Revolution begin?",
+      "options": { "A": "1789", "B": "1776", "C": "1804", "D": "1799" },
+      "correctOption": "A",
+      "topic": "History"
+    },
+    {
+      "questionText": "Which Shakespeare play features the characters Rosencrantz and Guildenstern?",
+      "options": {
+        "A": "Hamlet",
+        "B": "Macbeth",
+        "C": "Othello",
+        "D": "King Lear"
+      },
+      "correctOption": "A",
+      "topic": "Literature"
+    },
+    {
+      "questionText": "Which river is the longest in the world?",
+      "options": {
+        "A": "Nile",
+        "B": "Amazon",
+        "C": "Yangtze",
+        "D": "Mississippi"
+      },
+      "correctOption": "A",
+      "topic": "Geography"
+    }
+  ],
+  "level-8": [
+    {
+      "questionText": "Who painted the Mona Lisa?",
+      "options": {
+        "A": "Leonardo da Vinci",
+        "B": "Vincent van Gogh",
+        "C": "Pablo Picasso",
+        "D": "Michelangelo"
+      },
+      "correctOption": "A",
+      "topic": "Art"
+    },
+    {
+      "questionText": "Which chemical element has the symbol 'O'?",
+      "options": { "A": "Oxygen", "B": "Gold", "C": "Osmium", "D": "Iron" },
+      "correctOption": "A",
+      "topic": "Chemistry"
+    },
+    {
+      "questionText": "Which country hosted the 2016 Summer Olympics?",
+      "options": { "A": "Brazil", "B": "China", "C": "UK", "D": "Russia" },
+      "correctOption": "A",
+      "topic": "Sports"
+    },
+    {
+      "questionText": "Who is considered the father of modern physics?",
+      "options": {
+        "A": "Isaac Newton",
+        "B": "Albert Einstein",
+        "C": "Galileo Galilei",
+        "D": "Niels Bohr"
+      },
+      "correctOption": "B",
+      "topic": "Physics"
+    },
+    {
+      "questionText": "What is the largest organ in the human body?",
+      "options": { "A": "Skin", "B": "Liver", "C": "Heart", "D": "Lung" },
+      "correctOption": "A",
+      "topic": "Biology"
+    },
+    {
+      "questionText": "Which language is primarily spoken in Brazil?",
+      "options": {
+        "A": "Portuguese",
+        "B": "Spanish",
+        "C": "French",
+        "D": "English"
+      },
+      "correctOption": "A",
+      "topic": "Geography"
+    },
+    {
+      "questionText": "What is the currency of Japan?",
+      "options": { "A": "Yen", "B": "Dollar", "C": "Euro", "D": "Peso" },
+      "correctOption": "A",
+      "topic": "Economics"
+    },
+    {
+      "questionText": "Which Shakespeare play includes the line 'To be, or not to be'?",
+      "options": {
+        "A": "Hamlet",
+        "B": "Macbeth",
+        "C": "Othello",
+        "D": "Romeo and Juliet"
+      },
+      "correctOption": "A",
+      "topic": "Literature"
+    },
+    {
+      "questionText": "Which planet is closest to the Sun?",
+      "options": { "A": "Mercury", "B": "Venus", "C": "Earth", "D": "Mars" },
+      "correctOption": "A",
+      "topic": "Astronomy"
+    },
+    {
+      "questionText": "What is the process by which plants make food using sunlight?",
+      "options": {
+        "A": "Photosynthesis",
+        "B": "Respiration",
+        "C": "Transpiration",
+        "D": "Fermentation"
+      },
+      "correctOption": "A",
+      "topic": "Biology"
+    }
+  ],
+  "level-9": [
+    {
+      "questionText": "What is the main gas responsible for global warming?",
+      "options": {
+        "A": "Carbon Dioxide",
+        "B": "Oxygen",
+        "C": "Nitrogen",
+        "D": "Hydrogen"
+      },
+      "correctOption": "A",
+      "topic": "Environment"
+    },
+    {
+      "questionText": "Who wrote the novel '1984'?",
+      "options": {
+        "A": "George Orwell",
+        "B": "Aldous Huxley",
+        "C": "Ray Bradbury",
+        "D": "J.K. Rowling"
+      },
+      "correctOption": "A",
+      "topic": "Literature"
+    },
+    {
+      "questionText": "Which organelle is known as the powerhouse of the cell?",
+      "options": {
+        "A": "Mitochondria",
+        "B": "Nucleus",
+        "C": "Ribosome",
+        "D": "Chloroplast"
+      },
+      "correctOption": "A",
+      "topic": "Biology"
+    },
+    {
+      "questionText": "Which programming language is primarily used for statistical computing?",
+      "options": { "A": "Python", "B": "R", "C": "Java", "D": "C++" },
+      "correctOption": "B",
+      "topic": "Technology"
+    },
+    {
+      "questionText": "Which famous scientist proposed the theory of relativity?",
+      "options": {
+        "A": "Albert Einstein",
+        "B": "Isaac Newton",
+        "C": "Nikola Tesla",
+        "D": "Galileo Galilei"
+      },
+      "correctOption": "A",
+      "topic": "Physics"
+    },
+    {
+      "questionText": "Which element has the atomic number 79?",
+      "options": {
+        "A": "Gold",
+        "B": "Silver",
+        "C": "Platinum",
+        "D": "Mercury"
+      },
+      "correctOption": "A",
+      "topic": "Chemistry"
+    },
+    {
+      "questionText": "What is the capital city of Australia?",
+      "options": {
+        "A": "Sydney",
+        "B": "Melbourne",
+        "C": "Canberra",
+        "D": "Brisbane"
+      },
+      "correctOption": "C",
+      "topic": "Geography"
+    },
+    {
+      "questionText": "Which ancient civilization built the Machu Picchu?",
+      "options": { "A": "Maya", "B": "Inca", "C": "Aztec", "D": "Olmec" },
+      "correctOption": "B",
+      "topic": "History"
+    },
+    {
+      "questionText": "What is the largest moon of Saturn?",
+      "options": {
+        "A": "Titan",
+        "B": "Europa",
+        "C": "Ganymede",
+        "D": "Callisto"
+      },
+      "correctOption": "A",
+      "topic": "Astronomy"
+    },
+    {
+      "questionText": "Which process converts nitrogen gas into a form usable by plants?",
+      "options": {
+        "A": "Nitrogen Fixation",
+        "B": "Photosynthesis",
+        "C": "Respiration",
+        "D": "Transpiration"
+      },
+      "correctOption": "A",
+      "topic": "Biology"
+    }
+  ],
+  "level-10": [
+    {
+      "questionText": "Which philosopher wrote 'The Republic'?",
+      "options": {
+        "A": "Aristotle",
+        "B": "Plato",
+        "C": "Socrates",
+        "D": "Descartes"
+      },
+      "correctOption": "B",
+      "topic": "Philosophy"
+    },
+    {
+      "questionText": "What is the largest desert in the world (excluding polar deserts)?",
+      "options": {
+        "A": "Sahara",
+        "B": "Gobi",
+        "C": "Kalahari",
+        "D": "Arabian"
+      },
+      "correctOption": "A",
+      "topic": "Geography"
+    },
+    {
+      "questionText": "Which particle is exchanged in the strong nuclear force?",
+      "options": {
+        "A": "Photon",
+        "B": "Gluon",
+        "C": "Neutrino",
+        "D": "Electron"
+      },
+      "correctOption": "B",
+      "topic": "Physics"
+    },
+    {
+      "questionText": "Which element is liquid at room temperature?",
+      "options": {
+        "A": "Mercury",
+        "B": "Lead",
+        "C": "Bromine",
+        "D": "Gallium"
+      },
+      "correctOption": "A",
+      "topic": "Chemistry"
+    },
+    {
+      "questionText": "Who painted the famous artwork 'The Starry Night'?",
+      "options": {
+        "A": "Vincent van Gogh",
+        "B": "Pablo Picasso",
+        "C": "Claude Monet",
+        "D": "Leonardo da Vinci"
+      },
+      "correctOption": "A",
+      "topic": "Art"
+    },
+    {
+      "questionText": "Which country hosted the 2016 Summer Olympics?",
+      "options": {
+        "A": "China",
+        "B": "Brazil",
+        "C": "United Kingdom",
+        "D": "Russia"
+      },
+      "correctOption": "B",
+      "topic": "Sports"
+    },
+    {
+      "questionText": "Which mathematical concept represents the rate of change?",
+      "options": {
+        "A": "Integral",
+        "B": "Derivative",
+        "C": "Matrix",
+        "D": "Vector"
+      },
+      "correctOption": "B",
+      "topic": "Mathematics"
+    },
+    {
+      "questionText": "Who discovered penicillin?",
+      "options": {
+        "A": "Alexander Fleming",
+        "B": "Louis Pasteur",
+        "C": "Marie Curie",
+        "D": "Robert Koch"
+      },
+      "correctOption": "A",
+      "topic": "Biology"
+    },
+    {
+      "questionText": "Which city is known as the 'City of Canals'?",
+      "options": {
+        "A": "Venice",
+        "B": "Amsterdam",
+        "C": "Bangkok",
+        "D": "St. Petersburg"
+      },
+      "correctOption": "A",
+      "topic": "Geography"
+    },
+    {
+      "questionText": "Which programming paradigm is primarily associated with Haskell?",
+      "options": {
+        "A": "Object-Oriented",
+        "B": "Functional",
+        "C": "Procedural",
+        "D": "Imperative"
+      },
+      "correctOption": "B",
+      "topic": "Technology"
+    }
+  ],
+  "level-11": [
+    {
+      "questionText": "Which movie won the Oscar for Best Picture in 1994?",
+      "options": {
+        "A": "Pulp Fiction",
+        "B": "Forrest Gump",
+        "C": "The Shawshank Redemption",
+        "D": "Lion King"
+      },
+      "correctOption": "B",
+      "topic": "Movie"
+    },
+    {
+      "questionText": "Which classical composer wrote the 'Moonlight Sonata'?",
+      "options": {
+        "A": "Mozart",
+        "B": "Beethoven",
+        "C": "Bach",
+        "D": "Chopin"
+      },
+      "correctOption": "B",
+      "topic": "Music"
+    },
+    {
+      "questionText": "The Statue of Liberty was a gift to the United States from which country?",
+      "options": { "A": "England", "B": "France", "C": "Spain", "D": "Italy" },
+      "correctOption": "B",
+      "topic": "Statue"
+    },
+    {
+      "questionText": "Which religion has the largest number of followers worldwide?",
+      "options": {
+        "A": "Christianity",
+        "B": "Islam",
+        "C": "Hinduism",
+        "D": "Buddhism"
+      },
+      "correctOption": "A",
+      "topic": "Religion"
+    },
+    {
+      "questionText": "Which football club has won the most UEFA Champions League titles?",
+      "options": {
+        "A": "Real Madrid",
+        "B": "Barcelona",
+        "C": "AC Milan",
+        "D": "Liverpool"
+      },
+      "correctOption": "A",
+      "topic": "Football"
+    },
+    {
+      "questionText": "Which famous architect designed the Guggenheim Museum in New York?",
+      "options": {
+        "A": "Frank Lloyd Wright",
+        "B": "Le Corbusier",
+        "C": "Zaha Hadid",
+        "D": "I.M. Pei"
+      },
+      "correctOption": "A",
+      "topic": "Architecture"
+    },
+    {
+      "questionText": "Who holds the record for the most Olympic gold medals in swimming?",
+      "options": {
+        "A": "Mark Spitz",
+        "B": "Michael Phelps",
+        "C": "Ian Thorpe",
+        "D": "Ryan Lochte"
+      },
+      "correctOption": "B",
+      "topic": "Sport"
+    },
+    {
+      "questionText": "Which movie is famous for the line 'May the Force be with you'?",
+      "options": {
+        "A": "Star Wars",
+        "B": "Star Trek",
+        "C": "Guardians of the Galaxy",
+        "D": "Avatar"
+      },
+      "correctOption": "A",
+      "topic": "Movie"
+    },
+    {
+      "questionText": "Who is known as the 'King of Pop'?",
+      "options": {
+        "A": "Prince",
+        "B": "Michael Jackson",
+        "C": "Elvis Presley",
+        "D": "Justin Timberlake"
+      },
+      "correctOption": "B",
+      "topic": "Music"
+    },
+    {
+      "questionText": "Which statue is considered the symbol of Rio de Janeiro?",
+      "options": {
+        "A": "Christ the Redeemer",
+        "B": "The Thinker",
+        "C": "David",
+        "D": "Venus de Milo"
+      },
+      "correctOption": "A",
+      "topic": "Statue"
+    }
+  ],
+  "level-12": [
+    {
+      "questionText": "Which film director is known for the movie 'Inception'?",
+      "options": {
+        "A": "Steven Spielberg",
+        "B": "Christopher Nolan",
+        "C": "James Cameron",
+        "D": "Quentin Tarantino"
+      },
+      "correctOption": "B",
+      "topic": "Movie"
+    },
+    {
+      "questionText": "Which musical instrument has 88 keys?",
+      "options": {
+        "A": "Piano",
+        "B": "Organ",
+        "C": "Accordion",
+        "D": "Harpsichord"
+      },
+      "correctOption": "A",
+      "topic": "Music"
+    },
+    {
+      "questionText": "The 'Moai' statues are found on which island?",
+      "options": {
+        "A": "Bali",
+        "B": "Easter Island",
+        "C": "Madagascar",
+        "D": "Galapagos"
+      },
+      "correctOption": "B",
+      "topic": "Statue"
+    },
+    {
+      "questionText": "In which city is the Vatican located?",
+      "options": { "A": "Rome", "B": "Paris", "C": "Jerusalem", "D": "Athens" },
+      "correctOption": "A",
+      "topic": "Religion"
+    },
+    {
+      "questionText": "Which country won the FIFA World Cup in 2018?",
+      "options": {
+        "A": "Germany",
+        "B": "Brazil",
+        "C": "France",
+        "D": "Argentina"
+      },
+      "correctOption": "C",
+      "topic": "Football"
+    },
+    {
+      "questionText": "Which architectural style is characterized by pointed arches and flying buttresses?",
+      "options": {
+        "A": "Gothic",
+        "B": "Baroque",
+        "C": "Romanesque",
+        "D": "Renaissance"
+      },
+      "correctOption": "A",
+      "topic": "Architecture"
+    },
+    {
+      "questionText": "Who is considered the greatest tennis player of all time by Grand Slam titles (men)?",
+      "options": {
+        "A": "Roger Federer",
+        "B": "Rafael Nadal",
+        "C": "Novak Djokovic",
+        "D": "Pete Sampras"
+      },
+      "correctOption": "C",
+      "topic": "Sport"
+    },
+    {
+      "questionText": "Which movie features the fictional character 'Forrest Gump'?",
+      "options": {
+        "A": "Saving Private Ryan",
+        "B": "Forrest Gump",
+        "C": "Cast Away",
+        "D": "Big"
+      },
+      "correctOption": "B",
+      "topic": "Movie"
+    },
+    {
+      "questionText": "Who composed the 'Four Seasons'?",
+      "options": { "A": "Vivaldi", "B": "Bach", "C": "Handel", "D": "Mozart" },
+      "correctOption": "A",
+      "topic": "Music"
+    },
+    {
+      "questionText": "The Christ the Redeemer statue overlooks which city?",
+      "options": {
+        "A": "Lisbon",
+        "B": "Sao Paulo",
+        "C": "Rio de Janeiro",
+        "D": "Buenos Aires"
+      },
+      "correctOption": "C",
+      "topic": "Statue"
+    }
+  ],
+  "level-13": [
+    {
+      "questionText": "Which movie won the Academy Award for Best Picture in 2020?",
+      "options": {
+        "A": "1917",
+        "B": "Parasite",
+        "C": "Joker",
+        "D": "Ford v Ferrari"
+      },
+      "correctOption": "B",
+      "topic": "Movie"
+    },
+    {
+      "questionText": "Which composer is known for the opera 'The Magic Flute'?",
+      "options": {
+        "A": "Mozart",
+        "B": "Beethoven",
+        "C": "Verdi",
+        "D": "Tchaikovsky"
+      },
+      "correctOption": "A",
+      "topic": "Music"
+    },
+    {
+      "questionText": "The Statue of Liberty was a gift from which country?",
+      "options": { "A": "France", "B": "Italy", "C": "Spain", "D": "Germany" },
+      "correctOption": "A",
+      "topic": "Statue"
+    },
+    {
+      "questionText": "Which religion celebrates the festival of Diwali?",
+      "options": {
+        "A": "Hinduism",
+        "B": "Buddhism",
+        "C": "Christianity",
+        "D": "Islam"
+      },
+      "correctOption": "A",
+      "topic": "Religion"
+    },
+    {
+      "questionText": "Which football club has won the most UEFA Champions League titles?",
+      "options": {
+        "A": "Barcelona",
+        "B": "AC Milan",
+        "C": "Real Madrid",
+        "D": "Liverpool"
+      },
+      "correctOption": "C",
+      "topic": "Football"
+    },
+    {
+      "questionText": "Which famous landmark is located in Agra, India?",
+      "options": {
+        "A": "Taj Mahal",
+        "B": "Red Fort",
+        "C": "Qutub Minar",
+        "D": "Gateway of India"
+      },
+      "correctOption": "A",
+      "topic": "Architecture"
+    },
+    {
+      "questionText": "Who holds the record for most goals in a single FIFA World Cup tournament?",
+      "options": {
+        "A": "Miroslav Klose",
+        "B": "Just Fontaine",
+        "C": "Ronaldo Nazário",
+        "D": "Pele"
+      },
+      "correctOption": "B",
+      "topic": "Sport"
+    },
+    {
+      "questionText": "Which actor played the Joker in the 2008 film 'The Dark Knight'?",
+      "options": {
+        "A": "Joaquin Phoenix",
+        "B": "Heath Ledger",
+        "C": "Jack Nicholson",
+        "D": "Jared Leto"
+      },
+      "correctOption": "B",
+      "topic": "Movie"
+    },
+    {
+      "questionText": "Which band released the album 'Dark Side of the Moon'?",
+      "options": {
+        "A": "Pink Floyd",
+        "B": "The Beatles",
+        "C": "Led Zeppelin",
+        "D": "Queen"
+      },
+      "correctOption": "A",
+      "topic": "Music"
+    },
+    {
+      "questionText": "The Christ the Redeemer statue is how many meters tall?",
+      "options": { "A": "30m", "B": "38m", "C": "40m", "D": "45m" },
+      "correctOption": "B",
+      "topic": "Statue"
+    }
+  ],
+  "level-14": [
+    {
+      "questionText": "Which ancient civilization built the Temple of Karnak?",
+      "options": {
+        "A": "Babylonian",
+        "B": "Egyptian",
+        "C": "Mayan",
+        "D": "Greek"
+      },
+      "correctOption": "B",
+      "topic": "Culture & Religion"
+    },
+    {
+      "questionText": "In Hinduism, which god is known as the preserver of the universe?",
+      "options": { "A": "Shiva", "B": "Vishnu", "C": "Brahma", "D": "Indra" },
+      "correctOption": "B",
+      "topic": "Culture & Religion"
+    },
+    {
+      "questionText": "Which text is considered the oldest surviving religious manuscript in the world?",
+      "options": {
+        "A": "Rigveda",
+        "B": "Dead Sea Scrolls",
+        "C": "Torah",
+        "D": "Avesta"
+      },
+      "correctOption": "B",
+      "topic": "Culture & Religion"
+    },
+    {
+      "questionText": "The concept of Yin and Yang originates from which philosophical tradition?",
+      "options": {
+        "A": "Taoism",
+        "B": "Confucianism",
+        "C": "Buddhism",
+        "D": "Shinto"
+      },
+      "correctOption": "A",
+      "topic": "Culture & Religion"
+    },
+    {
+      "questionText": "Which religious figure is traditionally credited with founding Sikhism?",
+      "options": {
+        "A": "Guru Nanak",
+        "B": "Guru Gobind Singh",
+        "C": "Mahavira",
+        "D": "Baba Farid"
+      },
+      "correctOption": "A",
+      "topic": "Culture & Religion"
+    },
+    {
+      "questionText": "In Islamic tradition, what is the significance of the Kaaba?",
+      "options": {
+        "A": "Birthplace of Muhammad",
+        "B": "Center of pilgrimage",
+        "C": "Site of first revelation",
+        "D": "Ancient library"
+      },
+      "correctOption": "B",
+      "topic": "Culture & Religion"
+    },
+    {
+      "questionText": "Which ancient Greek historian wrote 'The History of the Peloponnesian War'?",
+      "options": {
+        "A": "Herodotus",
+        "B": "Thucydides",
+        "C": "Plutarch",
+        "D": "Xenophon"
+      },
+      "correctOption": "B",
+      "topic": "Culture & Religion"
+    },
+    {
+      "questionText": "The Borobudur temple complex is located in which country?",
+      "options": {
+        "A": "Thailand",
+        "B": "Cambodia",
+        "C": "Indonesia",
+        "D": "India"
+      },
+      "correctOption": "C",
+      "topic": "Culture & Religion"
+    },
+    {
+      "questionText": "In Christianity, which council established the doctrine of the Trinity?",
+      "options": {
+        "A": "Council of Nicaea",
+        "B": "Council of Chalcedon",
+        "C": "Council of Ephesus",
+        "D": "Council of Constantinople"
+      },
+      "correctOption": "A",
+      "topic": "Culture & Religion"
+    },
+    {
+      "questionText": "Which philosopher-pharaoh is credited with the introduction of monotheism in ancient Egypt?",
+      "options": {
+        "A": "Ramses II",
+        "B": "Tutankhamun",
+        "C": "Akhenaten",
+        "D": "Khufu"
+      },
+      "correctOption": "C",
+      "topic": "Culture & Religion"
+    }
+  ],
+  "level-15": [
+    {
+      "questionText": "What is the Heisenberg Uncertainty Principle related to in physics?",
+      "options": {
+        "A": "Energy and mass",
+        "B": "Position and momentum",
+        "C": "Time and space",
+        "D": "Force and acceleration"
+      },
+      "correctOption": "B",
+      "topic": "Science"
+    },
+    {
+      "questionText": "Who painted 'The Garden of Earthly Delights'?",
+      "options": {
+        "A": "Hieronymus Bosch",
+        "B": "Leonardo da Vinci",
+        "C": "Michelangelo",
+        "D": "Raphael"
+      },
+      "correctOption": "A",
+      "topic": "Arts"
+    },
+    {
+      "questionText": "Which ancient civilization developed the first known written code of law?",
+      "options": {
+        "A": "Egyptians",
+        "B": "Babylonians",
+        "C": "Romans",
+        "D": "Greeks"
+      },
+      "correctOption": "B",
+      "topic": "History"
+    },
+    {
+      "questionText": "What is the most abundant element in the Earth's crust?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Silicon",
+        "C": "Aluminum",
+        "D": "Iron"
+      },
+      "correctOption": "A",
+      "topic": "Science"
+    },
+    {
+      "questionText": "Which composer wrote 'The Well-Tempered Clavier'?",
+      "options": {
+        "A": "Mozart",
+        "B": "Bach",
+        "C": "Beethoven",
+        "D": "Chopin"
+      },
+      "correctOption": "B",
+      "topic": "Music"
+    },
+    {
+      "questionText": "In football, who holds the record for most goals in a single FIFA World Cup tournament?",
+      "options": {
+        "A": "Pelé",
+        "B": "Miroslav Klose",
+        "C": "Just Fontaine",
+        "D": "Ronaldo Nazário"
+      },
+      "correctOption": "C",
+      "topic": "Sports"
+    },
+    {
+      "questionText": "Which film won the Academy Award for Best Picture in 1972?",
+      "options": {
+        "A": "The Godfather",
+        "B": "Cabaret",
+        "C": "Patton",
+        "D": "A Clockwork Orange"
+      },
+      "correctOption": "A",
+      "topic": "Movies"
+    },
+    {
+      "questionText": "Who is the founder of modern computer science and conceptualized the Turing machine?",
+      "options": {
+        "A": "Alan Turing",
+        "B": "John von Neumann",
+        "C": "Charles Babbage",
+        "D": "Ada Lovelace"
+      },
+      "correctOption": "A",
+      "topic": "Technology"
+    },
+    {
+      "questionText": "In religion, what is the primary scripture of Zoroastrianism?",
+      "options": { "A": "Avesta", "B": "Torah", "C": "Vedas", "D": "Bible" },
+      "correctOption": "A",
+      "topic": "Religion"
+    },
+    {
+      "questionText": "Which philosopher proposed the idea of the 'veil of ignorance' in political theory?",
+      "options": {
+        "A": "John Rawls",
+        "B": "Plato",
+        "C": "Aristotle",
+        "D": "Thomas Hobbes"
+      },
+      "correctOption": "A",
+      "topic": "Philosophy"
+    }
+  ]
+}

@@ -6,9 +6,5 @@ interface QuestionBannerProps {
 }
 
 export const QuestionBanner: FC<QuestionBannerProps> = ({ question }) => {
-  return (
-    <div className={styles["question-banner-wrapper"]}>
-      <div className={styles["question-banner"]}>{question}</div>
-    </div>
-  );
+  return <div className={styles["question-banner"]}>{question}</div>;
 };
