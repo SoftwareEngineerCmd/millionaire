@@ -1,11 +1,55 @@
 .option-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  padding: 12px;
+  display: grid;
+  grid-template-areas: "item item";
+  width: 100%;
+  gap: 8px;
+  padding: 8px 0;
 }
 
-.option-row {
-  display: flex;
-  gap: 12px;
+.option-grid .question-banner {
+  grid-area: item;
+  margin-bottom: 8px;
+}
+
+.question-banner {
+  position: relative; /* required for ::before and ::after */
+  background: linear-gradient(to bottom, #001f4d, #003366);
+  color: #fff;
+  width: 100%;
+  clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 25px 20px;
+  /* border-radius removed because clip-path handles shape */
+  box-shadow: 0 0 25px rgba(0, 51, 102, 0.7) inset, 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Side glows */
+.question-banner::before,
+.question-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  background: linear-gradient(to bottom, #3399ff, transparent);
+  filter: blur(10px);
+  z-index: 0;
+}
+
+.question-banner::before {
+  left: -20px;
+}
+
+.question-banner::after {
+  right: -20px;
+  background: linear-gradient(to bottom, transparent, #3399ff);
+}
+
+/* Medium screens and above: 2 items per row */
+@media (max-width: 425px) {
+  .option-grid {
+    grid-template-areas: "item";
+  }
 }

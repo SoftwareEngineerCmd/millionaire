@@ -24,11 +24,11 @@ export const OptionButton: FC<OptionButtonProps> = ({
       disabled={disabled}
       onClick={() => onSubmit(option)}
       className={[
-        styles.optionButton,
+        styles["option-button"],
         state !== "default" ? styles[state] : "",
       ].join(" ")}
     >
-      <span className={styles.optionKey}>{option}</span>
+      <span className={styles.optionKey}>{option + ":"}</span>
       <span>{name}</span>
     </button>
   );
