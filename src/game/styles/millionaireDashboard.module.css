@@ -1,55 +1,143 @@
+/* Container for the whole dashboard */
+.dashboard-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #0b1a3f, #00164d);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+}
+
+.lifelines {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  position: absolute; /* absolute positioning for game layout */
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.35);
+  padding: 12px 24px;
+  border-radius: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+/* Option buttons grid */
 .option-grid {
   display: grid;
-  grid-template-areas: "item item";
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 16px;
   width: 100%;
-  gap: 8px;
-  padding: 8px 0;
+  max-width: 700px;
+  margin-top: 40px;
 }
 
-.option-grid .question-banner {
-  grid-area: item;
-  margin-bottom: 8px;
-}
-
+/* Question banner */
 .question-banner {
-  position: relative; /* required for ::before and ::after */
+  grid-column: 1 / -1;
   background: linear-gradient(to bottom, #001f4d, #003366);
   color: #fff;
-  width: 100%;
-  clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
-  font-family: "Arial", sans-serif;
+  padding: 12px;
+  font-size: 16px;
   font-weight: bold;
+  clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
   text-align: center;
-  padding: 25px 20px;
-  /* border-radius removed because clip-path handles shape */
-  box-shadow: 0 0 25px rgba(0, 51, 102, 0.7) inset, 0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
 }
 
-/* Side glows */
-.question-banner::before,
-.question-banner::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 20px;
-  height: 100%;
-  background: linear-gradient(to bottom, #3399ff, transparent);
-  filter: blur(10px);
-  z-index: 0;
+/* Option buttons */
+.option-grid > button {
+  border-radius: 14px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #001f4d, #003366);
+  color: #fff;
+  border: 2px solid #00164d;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: relative;
 }
 
-.question-banner::before {
-  left: -20px;
+/* Keyboard focus state */
+.option-grid > button:focus-visible {
+  outline: 3px solid #ffc107;
+  outline-offset: 2px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+/* Hover effect */
+.option-grid > button:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 
-.question-banner::after {
-  right: -20px;
-  background: linear-gradient(to bottom, transparent, #3399ff);
+/* Disabled / eliminated option */
+.option-grid > button.delete {
+  background: #555;
+  color: #ccc;
+  border: 2px solid #444;
+  cursor: not-allowed;
+  box-shadow: none;
 }
 
-/* Medium screens and above: 2 items per row */
+/* Option states */
+.option-grid > button.correct {
+  background: #28a745;
+  border-color: #1e7e34;
+  color: #fff;
+}
+
+.option-grid > button.wrong {
+  background: #dc3545;
+  border-color: #a71d2a;
+  color: #fff;
+}
+
+.option-grid > button.selected {
+  background: #ffc107;
+  border-color: #e0a800;
+  color: #0b1a3f;
+}
+
+/* Audience bars container */
+.audience-bars {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+/* Each audience bar */
+.audience-bars .bar {
+  width: 30px;
+  background-color: #007bff;
+  border-radius: 6px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.7rem;
+  transition: height 0.5s ease;
+}
+
 @media (max-width: 425px) {
   .option-grid {
-    grid-template-areas: "item";
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .question-banner {
+    font-size: 12px;
+  }
+
+  .option-grid > button {
+    font-size: 12px;
   }
 }

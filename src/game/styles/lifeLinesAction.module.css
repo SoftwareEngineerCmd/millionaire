@@ -1,0 +1,73 @@
+/* Lifeline buttons */
+.lifeline-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+/* Focus styles for keyboard navigation */
+.lifeline-btn:focus-visible {
+  outline: 2px solid #1e90ff;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+/* Lifeline images */
+.lifeline-btn img {
+  width: 55px;
+  display: block;
+  transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect: glow + scale + rotate */
+.lifeline-btn:hover img {
+  transform: scale(1.2) rotateY(360deg);
+  filter: drop-shadow(0 0 15px #1e90ff);
+}
+
+/* Active / click effect */
+.lifeline-btn:active img {
+  transform: scale(0.95);
+  filter: drop-shadow(0 0 8px #1e90ff);
+}
+
+/* Disabled or used lifelines */
+.lifeline-btn:disabled,
+.lifeline-btn.used {
+  opacity: 0.35;
+  cursor: not-allowed;
+  pointer-events: none;
+  filter: grayscale(100%);
+  transform: none;
+}
+
+/* Optional: small pulse animation on hover */
+.lifeline-btn:hover::after {
+  content: "";
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 120%;
+  height: 120%;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(30, 144, 255, 0.6);
+  animation: pulse 0.8s ease-out;
+  pointer-events: none;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
