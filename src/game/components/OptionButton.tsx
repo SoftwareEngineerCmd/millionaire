@@ -1,12 +1,12 @@
 import { FC } from "react";
 import styles from "../styles/buttons.module.css";
-import { OptionEnum } from "../enums/Options.enum";
-import { OptionState } from "../types/options";
+import { OptionState } from "../types/optionState";
+import { Option } from "../types/option";
 
 interface OptionButtonProps {
   name: string;
-  option: OptionEnum;
-  onSubmit: (o: OptionEnum) => void;
+  option: Option;
+  onSubmit: (o: Option) => void;
   state?: OptionState;
   disabled?: boolean;
 }
@@ -28,8 +28,12 @@ export const OptionButton: FC<OptionButtonProps> = ({
         state !== "default" ? styles[state] : "",
       ].join(" ")}
     >
-      <span className={styles.optionKey}>{option + ":"}</span>
-      <span>{name}</span>
+      {state !== "delete" && (
+        <>
+          <span className={styles.optionKey}>{option + ":"}</span>
+          <span>{name}</span>
+        </>
+      )}
     </button>
   );
 };
